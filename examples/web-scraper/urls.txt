@@ -1,0 +1,11 @@
+# Sample URLs for batch testing
+# One URL per line. Lines starting with # are comments.
+
+# Simple page (always works, no proxy needed)
+https://example.com
+
+# Hacker News (public, lightweight HTML)
+https://news.ycombinator.com
+
+# httpbin — returns the requester's IP (useful to verify proxy works)
+https://httpbin.org/html

@@ -1,0 +1,9 @@
+location_name,menu_url
+Downtown Bistro,https://example.com/menu/downtown-bistro
+Harbor Grill,https://example.com/menu/harbor-grill
+Airport Lounge,https://example.com/menu/airport-lounge
+University Cafe,https://example.com/menu/university-cafe
+Rooftop Bar,https://example.com/menu/rooftop-bar
+Invalid Entry,http://not-https.com/menu
+,https://example.com/menu/missing-name
+Downtown Bistro,https://example.com/menu/downtown-bistro-v2
