@@ -1,8 +1,10 @@
 # Prompt Contracts
 
-Stop vibe coding. Start shipping.
+**A structured way to tell AI exactly what to build — so it writes production code on the first try.**
 
-**[Get the book on Amazon](https://www.amazon.com/dp/PLACEHOLDER)** (paperback & Kindle)
+Prompt contracts replace vague prompts with five-section specs: Inputs, Expected Output, Constraints, Edge Cases, and Acceptance Criteria. Instead of "build me a profile API" and hoping for the best, you define what "done" means before the AI writes a single line. The result: code that handles errors, validates inputs, and works in production — not just in demos.
+
+This repo is the companion to the book *[Prompt Contracts: How I Stopped Vibe Coding and Started Shipping Real Software With AI](https://www.amazon.com/dp/PLACEHOLDER)*. It contains the templates, runnable examples, and full tool stack from the book.
 
 ---
 
@@ -125,4 +127,4 @@ Code examples: MIT. Templates: use them however you want.
 
 ---
 
-Built with [Claude Code](https://claude.ai/code). Written by [@rentierdigital](https://medium.com/@rentierdigital).
+Built with [Claude Code](https://claude.ai/code). Written by [@rentierdigital](https://rentierdigital.xyz).

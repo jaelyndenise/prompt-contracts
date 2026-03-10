@@ -6,67 +6,56 @@ something I use in production, not a sponsored recommendation.
 
 ## Development
 
-**Claude Code** — AI coding assistant (CLI)
+**[Claude Code](https://claude.ai/code)** — AI coding assistant (CLI)
 The core tool this book is about. Write prompt contracts, get
 correct code on the first try.
-https://claude.ai/code
 
-**Convex** — Reactive backend-as-a-service
+**[Convex](https://convex.dev)** — Reactive backend-as-a-service
 Real-time database, server functions, file storage. The backend
 for DreamMiner (Ch.3). Type-safe from database to frontend.
-https://convex.dev
 
-**Clerk** — Authentication
+**[Clerk](https://clerk.com)** — Authentication
 Drop-in auth with social login, MFA, user management. Three
 lines to add to your app layout. Used in Ch.3.
-https://clerk.com
 
-**Next.js** — React framework
+**[Next.js](https://nextjs.org)** — React framework
 App Router, server components, API routes. The frontend framework
 for every project in this book.
-https://nextjs.org
 
-**Vercel** — Deployment platform
+**[Vercel](https://vercel.com)** — Deployment platform
 `vercel --prod` and you're live. Zero-config deploys for Next.js.
 Used in Ch.3 for DreamMiner deployment.
-https://vercel.com
 
-**Tailwind CSS** — Utility-first CSS
+**[Tailwind CSS](https://tailwindcss.com)** — Utility-first CSS
 No custom CSS files. Just utility classes. Every component in
 this book uses Tailwind.
-https://tailwindcss.com
 
 ## AI & APIs
 
-**Anthropic Claude API** — LLM for generation
+**[Anthropic Claude API](https://docs.anthropic.com)** — LLM for generation
 Powers the DreamMiner report generation (Ch.3) and content
 pipeline AI calls (Ch.5). Use with prompt contracts.
-https://docs.anthropic.com
 
-**OpenRouter** — Multi-model API gateway
+**[OpenRouter](https://openrouter.ai)** — Multi-model API gateway
 Single API, multiple models. Useful for fallback chains and
 comparing outputs across providers.
-https://openrouter.ai
 
 ## Automation
 
-**n8n** — Workflow automation (self-hosted)
+**[n8n](https://n8n.partnerlinks.io/zc590xy0ecro)** — Workflow automation (self-hosted)
 Visual workflow builder. Self-hosted on Docker. My primary
 automation tool (Ch.5). Free, open source, JSON-exportable.
-https://n8n.partnerlinks.io/zc590xy0ecro
 
-**n8n-mcp** — Claude Code + n8n bridge
+**[n8n-mcp](https://github.com/czlonkowski/n8n-mcp)** — Claude Code + n8n bridge
 MCP server that lets Claude Code create and modify n8n workflows
 directly. Write a prompt contract, let Claude Code build the
 workflow. The automation equivalent of prompt-contract-driven
 development.
-https://github.com/czlonkowski/n8n-mcp
 
-**Make.com** — Workflow automation (managed)
+**[Make](https://www.make.com/en/register?pc=bestof)** — Workflow automation (managed)
 The managed alternative to n8n. No Docker, no VPS. Sign up and
 start automating. Recommended in Ch.5 for readers who don't
 self-host.
-https://www.make.com/en/register?pc=bestof
 
 ### n8n vs Make — which one?
 
@@ -80,16 +69,14 @@ https://www.make.com/en/register?pc=bestof
 
 ## Self-Hosting
 
-**Hostinger** — VPS hosting
+**[Hostinger](https://www.hostg.xyz/SHHc5)** — VPS hosting
 My $5/month VPS runs n8n, OpenClaw agents, and monitoring.
 KVM virtualization, decent performance for the price. Setup
 guide in Ch.4.
-https://www.hostg.xyz/SHHc5
 
-**Contabo** — VPS hosting (alternative)
+**[Contabo](https://www.kqzyfj.com/click-100562241-13796481)** — VPS hosting (alternative)
 Budget VPS option. I use it as failover. Slightly cheaper than
 Hostinger for higher specs, but support is slower.
-https://www.kqzyfj.com/click-100562241-13796481
 
 ### Hostinger vs Contabo
 
@@ -115,23 +102,20 @@ https://www.kqzyfj.com/click-100562241-13796481
 
 ## Content & SEO
 
-**Wisewand** — AI SEO tool
+**[Wisewand](https://wisewand.ai/?fpr=try)** — AI SEO tool
 SEO formatting and multilingual distribution for content.
 Widget embeds directly into articles. Has n8n integration.
 Part of my content pipeline workflow.
-https://wisewand.ai/?fpr=try
 
 ## Data & Scraping
 
-**BrightData** — Web scraping infrastructure
+**[BrightData](https://get.brightdata.com/unstoppable)** — Web scraping infrastructure
 Proxy network and scraping APIs. Powers data collection for
 AI agent workflows on the VPS. Enterprise-grade reliability.
-https://get.brightdata.com/unstoppable
 
-**Webshare** — Proxy service (budget)
+**[Webshare](https://www.webshare.io/?referral_code=dzesm85ssnlr)** — Proxy service (budget)
 $2.80/GB residential proxies. The budget alternative to
 BrightData for testing scraping workflows before scaling up.
-https://www.webshare.io/?referral_code=dzesm85ssnlr
 
 ### BrightData vs Webshare
 
@@ -144,32 +128,28 @@ https://www.webshare.io/?referral_code=dzesm85ssnlr
 
 ## Prototyping
 
-**Lovable** — AI app builder
+**[Lovable](https://lovable.dev/invite/PH7LRHN)** — AI app builder
 Generates full apps from prompts. Good for prototyping and
 validating ideas in 20 minutes before building properly with
 Claude Code. See Ch.6 for the honest assessment — and why I
 still use it for quick validation.
-https://lovable.dev/invite/PH7LRHN
 
 ## Project Ideas
 
-**Ideas.xyz** — Validated business ideas
+**[Ideas.xyz](https://www.bonzai.pro/ideasxyz/shop/63xP_6386/idees?a=t_Gx7p_1295)** — Validated business ideas
 Daily business ideas with market analysis and go-to-market
 strategy. Filter by SaaS + Developer to find weekend project
 candidates. Site is in French — the content is solid regardless
 of language if you use browser translation.
-https://www.bonzai.pro/ideasxyz/shop/63xP_6386/idees?a=t_Gx7p_1295
 
 ## Payments
 
-**Stripe** — Payment processing
+**[Stripe](https://stripe.com)** — Payment processing
 Checkout sessions, webhooks, subscription management. Used
 in Ch.3 for DreamMiner's two-tier pricing.
-https://stripe.com
 
 ## Audio & Voice
 
-**ElevenLabs** — Text-to-speech API
+**[ElevenLabs](https://try.elevenlabs.io/v3)** — Text-to-speech API
 High-quality voice synthesis. Not used in the book's projects
 but part of my broader tool stack for content production.
-https://try.elevenlabs.io/v3
