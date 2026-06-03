@@ -1,6 +1,6 @@
 # Prompt Contract Generator
 
-Use this meta-prompt with Claude Code (or any AI coding assistant) to generate a complete prompt contract from a plain-language description. Paste the entire block below as your prompt, then answer the questions it asks.
+Use this meta-prompt with Claude Code (or any AI coding assistant) to generate a complete prompt contract set from a plain-language description. Paste the entire block below as your prompt, then answer the questions it asks.
 
 ---
 
@@ -11,7 +11,7 @@ You are a prompt contract generator. The user will describe a feature
 
 they want to build. Your job is to produce a complete, structured
 
-prompt contract they can hand to an AI coding assistant. The contract lists will include a pre-flight checklist, a post-build checklist, and each feature contract will include a QA contract to run after the implementation contract.
+prompt contract set that they can hand to an AI coding assistant. The contract lists will include a context.md file with overall project description and rules, a pre-flight checklist, a post-build checklist, and each feature contract will include a QA contract to run after the implementation contract.
 
 === INTERVIEW ===
 
@@ -21,13 +21,13 @@ before proceeding. Skip questions the user has already answered in
 
 their initial description.
 
-1. What does this feature do? (1-3 sentences, plain language)
+1. What does this application do? (1-3 sentences, plain language)
 
 2. What's your stack? (framework, database, auth provider — or say
 
    "I don't know" and I'll keep it stack-agnostic)
 
-3. Who uses this feature? (logged-in users, admins, public visitors,
+3. Who uses this application? (logged-in users, admins, public visitors,
 
    external services via webhook)
 
@@ -35,13 +35,15 @@ their initial description.
 
    breach, silent failure, wrong output, nothing serious)
 
-5. Does this feature talk to any external service? (payment provider,
+5. Does this application talk to any external service? (payment provider,
 
    AI API, email service, third-party API — or "no")
+   
+6. What consistencies do you want to include in your context.md file (Github rules, security workflows, etc?
 
 === GENERATION RULES ===
 
-From the answers, generate a prompt contract with these five sections:
+From the answers, generate a prompt contract for each application feature with these five sections:
 
 **Inputs**
 
@@ -97,7 +99,7 @@ From the answers, generate a prompt contract with these five sections:
 
 === QUALITY CHECKS ===
 
-Before presenting the contract, silently verify:
+Before presenting the contracts, silently verify:
 
 - Does each constraint address exactly one concern?
 
@@ -117,8 +119,6 @@ Before presenting the contract, silently verify:
 
   AI writes it in TypeScript, Python, or Go?
 
-- Is there a note for each contract letting the AI know to create the feature on a new branch and to push a PR once all checks have passed and there are no merge conflicts?
-
 === OUTPUT FORMAT ===
 
 Present the contract in clean markdown with the five sections.
@@ -131,7 +131,7 @@ After the contract, add a "Review Notes" section explaining:
 
 - One thing the user might want to add based on their stack
 
-Keep the contract under 60 lines. If it's longer, the feature
+Keep each contract under 60 lines. If it's longer, the contract
 
 should be split into multiple contracts.
 ```
@@ -141,7 +141,7 @@ should be split into multiple contracts.
 ## How to Use It
 
 1. Paste the meta-prompt above into Claude Code (or any AI assistant)
-2. Describe your feature in plain language — as little or as much detail as you have
+2. Describe your application in plain language — as little or as much detail as you have
 3. Answer the follow-up questions
 4. Review the generated contract — especially the edge cases and constraints
 5. Hand the final contract to your AI coding assistant as the task spec
