@@ -41,6 +41,8 @@ their initial description.
    
 6. What consistencies do you want to include in your context.md file (Github rules, security workflows, etc?
 
+7. Do you have a plan to host and distribute this application or do we need to weigh and discuss options?
+
 === GENERATION RULES ===
 
 From the answers, generate a prompt contract for each application feature with these five sections:
